@@ -4,7 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"dev": "concurrently 'eleventy --watch --incremental' 'vite serve _dist'"
+		"dev": "concurrently 'eleventy --watch --incremental' 'vite serve _dist'",
+		"build": "vite"
 	},
 	"keywords": [],
 	"author": "",
